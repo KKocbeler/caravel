@@ -1,0 +1,24 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8rem;
+    background-color: var(--secondary-color);
+
+    .nav-body {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .nav-list {
+            display: flex;
+            gap: 2rem;
+
+            .nav-list-item {
+                font-size: 1.8rem;
+            }
+        }
+    }
+
+}
+
